@@ -50,7 +50,7 @@
     "Developers": {
         "Name1": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer",
+            "role": "Developer 1",
             "description": "Name1's Description Here",
             "links": [
                 {
@@ -65,7 +65,7 @@
         },
         "Name2": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer",
+            "role": "Developer 2",
             "description": "Name2's Description Here",
             "links": [
                 {
@@ -80,7 +80,7 @@
         },
         "Name3": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer",
+            "role": "Developer 3",
             "description": "Name3's Description Here",
             "links": [
                 {
@@ -95,7 +95,7 @@
         },
         "Name4": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer",
+            "role": "Developer 4",
             "description": "Name4's Description Here",
             "links": [
                 {
@@ -110,7 +110,7 @@
         },
         "Name5": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer",
+            "role": "Developer 5",
             "description": "Name5's Description Here",
             "links": [
                 {
@@ -125,7 +125,7 @@
         },
         "Name6": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer",
+            "role": "Developer 6",
             "description": "Name6's Description Here",
             "links": [
                 {
@@ -139,6 +139,188 @@
             ]
         }
     },
-    "Operations": {},
-    "Film Crew": {}
+    "Operations": {
+        "Name1": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Operations 1",
+            "description": "Name1's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name2": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Operations 2",
+            "description": "Name2's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name3": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Operations 3",
+            "description": "Name3's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name4": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Operations 4",
+            "description": "Name4's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name5": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Operations 5",
+            "description": "Name5's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name6": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Operations 6",
+            "description": "Name6's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        }
+    },
+    "Film Crew": {
+        "Name1": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Film Crew 1",
+            "description": "Name1's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name2": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Film Crew 2",
+            "description": "Name2's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name3": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Film Crew 3",
+            "description": "Name3's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name4": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Film Crew 4",
+            "description": "Name4's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name5": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Film Crew 5",
+            "description": "Name5's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name6": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Film Crew 6",
+            "description": "Name6's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        }
+    }
 }
