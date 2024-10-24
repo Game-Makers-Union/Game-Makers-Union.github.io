@@ -38,6 +38,14 @@ footer {
     background-color: #007dff;
 }
 
+p {
+    font-size: 12pt
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
 /* .text-center {
     text-align: center;
 } */
@@ -63,6 +71,17 @@ footer {
     color: yellow
 }
 
+.card-title {
+    text-shadow: -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.card-title-text {
+    font-weight: bold;
+}
+
 h1 {
     margin: 20px;
     padding: 10px;
@@ -84,8 +103,10 @@ h1 {
         position: absolute;
         top: 0;
         left: 0;
-        height: 100%; /* This makes the logo's height match the header's height */
-        width: auto; /* Maintain the aspect ratio of the logo */
+        height: 100%;
+        /* This makes the logo's height match the header's height */
+        width: auto;
+        /* Maintain the aspect ratio of the logo */
     }
 }
 

@@ -1,0 +1,144 @@
+{
+    "Directors": {
+        "Maeve Fitzgerald": {
+            "colorClasses": "teal lighten-1",
+            "imagePath": "https://placehold.co/800",
+            "role": "Main Director",
+            "description": "Maeve's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Emma Ko": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Assistant Director",
+            "description": "Name2's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Manan Auluck": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Assistant Director",
+            "description": "Name3's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        }
+    },
+    "Developers": {
+        "Name1": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Developer",
+            "description": "Name1's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name2": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Developer",
+            "description": "Name2's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name3": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Developer",
+            "description": "Name3's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name4": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Developer",
+            "description": "Name4's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name5": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Developer",
+            "description": "Name5's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Name6": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Developer",
+            "description": "Name6's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        }
+    },
+    "Operations": {},
+    "Film Crew": {}
+}
