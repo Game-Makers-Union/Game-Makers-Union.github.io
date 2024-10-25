@@ -1,5 +1,3 @@
-
-
 fetch('scripts/exec-team.json')
     .then(response => response.json())
     .then(data => {
@@ -8,12 +6,13 @@ fetch('scripts/exec-team.json')
         let directorHTMLstr = ``
         let directorIndex = 0
         for (const directorName of Object.keys(directors)) {
-            let urlHTMLstr = ``
-            for (const link of directors[directorName].links) urlHTMLstr += `<a href="${link.href}">${link.linkText}</a>`
+            let urlHTMLstr = `<ul>`
+            for (const link of directors[directorName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
+            urlHTMLstr += `</ul>`
 
             let gridStr = `s12 m6`
             let colorStr = `green darken-2`
-            if (directorIndex === 0) { gridStr = `s12 m8 offset-m2 xl6 offset-xl3`; colorStr = `teal` }
+            if (directorIndex === 0) { gridStr = `s12 m8 offset-m2 xl6 offset-xl3`; colorStr = `teal darken-1` }
             // Main Director should ALWAYS be the first entry in the `exec-team.json` file!
 
             directorHTMLstr += `
@@ -23,7 +22,7 @@ fetch('scripts/exec-team.json')
                             <img src="${directors[directorName].imagePath}">
                             <span class="card-title"><b>${directorName}</b></span>
                         </div>
-                        <div class="card-content ">
+                        <div class="card-content">
                             <h5 class="center">${directors[directorName].role}</h5>
                             <p>${directors[directorName].description}</p>
                         </div>
@@ -48,8 +47,9 @@ fetch('scripts/exec-team.json')
         let developerHTMLstr = ``
         let developerIndex = 0
         for (const developerName of Object.keys(developers)) {
-            let urlHTMLstr = ``
-            for (const link of developers[developerName].links) urlHTMLstr += `<a href="${link.href}">${link.linkText}</a>`
+            let urlHTMLstr = `<ul>`
+            for (const link of developers[developerName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
+            urlHTMLstr += `</ul>`
 
             developerHTMLstr += `
                 <div class="col s12 m6">
@@ -58,7 +58,7 @@ fetch('scripts/exec-team.json')
                             <img src="${developers[developerName].imagePath}">
                             <span class="card-title"><b>${developerName}</b></span>
                         </div>
-                        <div class="card-content ">
+                        <div class="card-content">
                             <h5 class="center">${developers[developerName].role}</h5>
                             <p>${developers[developerName].description}</p>
                         </div>
@@ -82,8 +82,9 @@ fetch('scripts/exec-team.json')
         let operationHTMLstr = ``
         let operationIndex = 0
         for (const operationName of Object.keys(operations)) {
-            let urlHTMLstr = ``
-            for (const link of operations[operationName].links) urlHTMLstr += `<a href="${link.href}">${link.linkText}</a>`
+            let urlHTMLstr = `<ul>`
+            for (const link of operations[operationName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
+            urlHTMLstr += `</ul>`
 
             operationHTMLstr += `
                 <div class="col s12 m6">
@@ -92,7 +93,7 @@ fetch('scripts/exec-team.json')
                             <img src="${operations[operationName].imagePath}">
                             <span class="card-title"><b>${operationName}</b></span>
                         </div>
-                        <div class="card-content ">
+                        <div class="card-content">
                             <h5 class="center">${operations[operationName].role}</h5>
                             <p>${operations[operationName].description}</p>
                         </div>
@@ -114,8 +115,9 @@ fetch('scripts/exec-team.json')
         let filmCrewHTMLstr = ``
         let filmCrewIndex = 0
         for (const filmCrewName of Object.keys(filmCrew)) {
-            let urlHTMLstr = ``
-            for (const link of filmCrew[filmCrewName].links) urlHTMLstr += `<a href="${link.href}">${link.linkText}</a>`
+            let urlHTMLstr = `<ul>`
+            for (const link of filmCrew[filmCrewName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
+            urlHTMLstr += `</ul>`
 
             filmCrewHTMLstr += `
                 <div class="col s12 m6">
@@ -124,7 +126,7 @@ fetch('scripts/exec-team.json')
                             <img src="${filmCrew[filmCrewName].imagePath}">
                             <span class="card-title"><b>${filmCrewName}</b></span>
                         </div>
-                        <div class="card-content ">
+                        <div class="card-content">
                             <h5 class="center">${filmCrew[filmCrewName].role}</h5>
                             <p>${filmCrew[filmCrewName].description}</p>
                         </div>
