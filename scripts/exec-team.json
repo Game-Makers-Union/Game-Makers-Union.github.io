@@ -48,10 +48,10 @@
         }
     },
     "Developers": {
-        "Name1": {
+        "Thomas Imada": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer 1",
-            "description": "Name1's Description Here",
+            "role": "Programming Lead",
+            "description": "Thomas's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -63,10 +63,10 @@
                 }
             ]
         },
-        "Name2": {
+        "Michael Latka": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer 2",
-            "description": "Name2's Description Here",
+            "role": "Programming Producer",
+            "description": "Michael's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -78,10 +78,10 @@
                 }
             ]
         },
-        "Name3": {
+        "Declan Key": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer 3",
-            "description": "Name3's Description Here",
+            "role": "Art Lead",
+            "description": "Declan's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -93,10 +93,10 @@
                 }
             ]
         },
-        "Name4": {
+        "Victoria Ouryvski": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer 4",
-            "description": "Name4's Description Here",
+            "role": "Art Producer",
+            "description": "Victoria's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -108,10 +108,10 @@
                 }
             ]
         },
-        "Name5": {
+        "Cassandra Matchett": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer 5",
-            "description": "Name5's Description Here",
+            "role": "Writing Lead",
+            "description": "Cassandra's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -123,10 +123,70 @@
                 }
             ]
         },
-        "Name6": {
+        "Stevie Zouri": {
             "imagePath": "https://placehold.co/600",
-            "role": "Developer 6",
-            "description": "Name6's Description Here",
+            "role": "Writing Producer",
+            "description": "Stevie's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Isabella Greco-Danells": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Game Design Lead",
+            "description": "Isabella's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Tristan Meyer Odell": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Game Design Producer",
+            "description": "Tristan's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Ethan Wong": {
+            "imagePath": "https://placehold.co/600",
+            "role": "Sound Design Lead",
+            "description": "Ethan's Description Here",
+            "links": [
+                {
+                    "linkText": "LinkText1",
+                    "href": "#"
+                },
+                {
+                    "linkText": "LinkText2",
+                    "href": "#"
+                }
+            ]
+        },
+        "Patrik Ago": {
+            "imagePath": "https://placehold.co/600",
+            "role": "UI Lead",
+            "description": "Patrik's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -140,10 +200,10 @@
         }
     },
     "Operations": {
-        "Name1": {
+        "Dante Romita": {
             "imagePath": "https://placehold.co/600",
-            "role": "Operations 1",
-            "description": "Name1's Description Here",
+            "role": "Webmaster",
+            "description": "My Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -155,10 +215,10 @@
                 }
             ]
         },
-        "Name2": {
+        "Edward Sword": {
             "imagePath": "https://placehold.co/600",
-            "role": "Operations 2",
-            "description": "Name2's Description Here",
+            "role": "Finance / Accountant",
+            "description": "Edward's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -170,10 +230,10 @@
                 }
             ]
         },
-        "Name3": {
+        "Emaan Iqbal": {
             "imagePath": "https://placehold.co/600",
-            "role": "Operations 3",
-            "description": "Name3's Description Here",
+            "role": "Head of Marketing",
+            "description": "Emaan's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -185,10 +245,10 @@
                 }
             ]
         },
-        "Name4": {
+        "Marco Luis Policarpio": {
             "imagePath": "https://placehold.co/600",
-            "role": "Operations 4",
-            "description": "Name4's Description Here",
+            "role": "Events Executive",
+            "description": "Marco's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -200,10 +260,10 @@
                 }
             ]
         },
-        "Name5": {
+        "Emmett Abdulhadi": {
             "imagePath": "https://placehold.co/600",
-            "role": "Operations 5",
-            "description": "Name5's Description Here",
+            "role": "Events Executive",
+            "description": "Emmett's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -215,10 +275,10 @@
                 }
             ]
         },
-        "Name6": {
+        "Madi Karlov": {
             "imagePath": "https://placehold.co/600",
-            "role": "Operations 6",
-            "description": "Name6's Description Here",
+            "role": "Events Coalition",
+            "description": "Madi's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -232,10 +292,10 @@
         }
     },
     "Film Crew": {
-        "Name1": {
+        "Evan [Last Name]": {
             "imagePath": "https://placehold.co/600",
             "role": "Film Crew 1",
-            "description": "Name1's Description Here",
+            "description": "Evan's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -247,10 +307,10 @@
                 }
             ]
         },
-        "Name2": {
+        "Alisha [Last Name]": {
             "imagePath": "https://placehold.co/600",
             "role": "Film Crew 2",
-            "description": "Name2's Description Here",
+            "description": "Alisha's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -262,10 +322,10 @@
                 }
             ]
         },
-        "Name3": {
+        "Zoreb [Last Name]": {
             "imagePath": "https://placehold.co/600",
             "role": "Film Crew 3",
-            "description": "Name3's Description Here",
+            "description": "Zoreb's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
@@ -277,40 +337,10 @@
                 }
             ]
         },
-        "Name4": {
+        "Nityaa [Last Name]": {
             "imagePath": "https://placehold.co/600",
             "role": "Film Crew 4",
-            "description": "Name4's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
-        },
-        "Name5": {
-            "imagePath": "https://placehold.co/600",
-            "role": "Film Crew 5",
-            "description": "Name5's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
-        },
-        "Name6": {
-            "imagePath": "https://placehold.co/600",
-            "role": "Film Crew 6",
-            "description": "Name6's Description Here",
+            "description": "Nityaa's Description Here",
             "links": [
                 {
                     "linkText": "LinkText1",
