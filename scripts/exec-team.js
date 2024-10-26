@@ -10,9 +10,9 @@ fetch('scripts/exec-team.json')
             for (const link of directors[directorName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
             urlHTMLstr += `</ul>`
 
-            let gridStr = `s12 m6`
+            let gridStr = `s12 m6 l4`
             let colorStr = `green darken-2`
-            if (directorIndex === 0) { gridStr = `s12 m8 offset-m2 xl6 offset-xl3`; colorStr = `teal darken-1` }
+            if (directors[directorName].role === "Main Director") colorStr = `teal darken-1`
             // Main Director should ALWAYS be the first entry in the `exec-team.json` file!
 
             directorHTMLstr += `
@@ -33,11 +33,11 @@ fetch('scripts/exec-team.json')
                 </div>
             `
 
-            if (directorIndex === 0) directorHTMLstr = `<div class="row">${directorHTMLstr}</div>`
-            else if (directorIndex % 2 === 1) directorHTMLstr = `<div class="row">${directorHTMLstr}`
-            else if (directorIndex % 2 === 0 || directorIndex === Object.keys(directors).length - 1) directorHTMLstr = `${directorHTMLstr}</div>`
+            // if (directorIndex === 0) directorHTMLstr = `<div class="row">${directorHTMLstr}</div>`
+            // else if (directorIndex % 2 === 1) directorHTMLstr = `<div class="row">${directorHTMLstr}`
+            // else if (directorIndex % 2 === 0 || directorIndex === Object.keys(directors).length - 1) directorHTMLstr = `${directorHTMLstr}</div>`
 
-            directorIndex++
+            // directorIndex++
         }
         document.getElementById('Directors').innerHTML = directorHTMLstr;
         // --- END OF DIRECTORS ---
@@ -52,7 +52,7 @@ fetch('scripts/exec-team.json')
             urlHTMLstr += `</ul>`
 
             developerHTMLstr += `
-                <div class="col s12 m6">
+                <div class="col s12 m6 l3">
                     <div class="card blue-grey darken-2">
                         <div class="card-image">
                             <img src="${developers[developerName].imagePath}">
@@ -69,8 +69,8 @@ fetch('scripts/exec-team.json')
                 </div>
             `
 
-            if (developerIndex % 2 === 0) developerHTMLstr = `<div class="row">${developerHTMLstr}`
-            else if (developerIndex % 2 === 1 || developerIndex === Object.keys(developers).length - 1) developerHTMLstr = `${developerHTMLstr}</div>`
+            if (developerIndex % 4 === 0) developerHTMLstr = `<div class="row">${developerHTMLstr}`
+            else if (developerIndex % 4 === 3 || developerIndex === Object.keys(developers).length - 1) developerHTMLstr = `${developerHTMLstr}</div>`
 
             developerIndex++
         }
@@ -87,8 +87,8 @@ fetch('scripts/exec-team.json')
             urlHTMLstr += `</ul>`
 
             operationHTMLstr += `
-                <div class="col s12 m6">
-                    <div class="card blue accent-4">
+                <div class="col s12 m6 l3">
+                    <div class="card blue darken-3">
                         <div class="card-image">
                             <img src="${operations[operationName].imagePath}">
                             <span class="card-title"><b>${operationName}</b></span>
@@ -104,8 +104,8 @@ fetch('scripts/exec-team.json')
                 </div>
             `
 
-            if (operationIndex % 2 === 0) operationHTMLstr = `<div class="row">${operationHTMLstr}`
-            else if (operationIndex % 2 === 1 || operationIndex === Object.keys(operations).length - 1) operationHTMLstr = `${operationHTMLstr}</div>`
+            if (operationIndex % 4 === 0) operationHTMLstr = `<div class="row">${operationHTMLstr}`
+            else if (operationIndex % 4 === 3 || operationIndex === Object.keys(operations).length - 1) operationHTMLstr = `${operationHTMLstr}</div>`
 
             operationIndex++
         }
@@ -120,7 +120,7 @@ fetch('scripts/exec-team.json')
             urlHTMLstr += `</ul>`
 
             filmCrewHTMLstr += `
-                <div class="col s12 m6">
+                <div class="col s12 m6 l3">
                     <div class="card deep-purple lighten-1">
                         <div class="card-image">
                             <img src="${filmCrew[filmCrewName].imagePath}">
@@ -137,8 +137,8 @@ fetch('scripts/exec-team.json')
                 </div>
             `
 
-            if (filmCrewIndex % 2 === 0) filmCrewHTMLstr = `<div class="row">${filmCrewHTMLstr}`
-            else if (filmCrewIndex % 2 === 1 || filmCrewIndex === Object.keys(filmCrew).length - 1) filmCrewHTMLstr = `${filmCrewHTMLstr}</div>`
+            if (filmCrewIndex % 4 === 0) filmCrewHTMLstr = `<div class="row">${filmCrewHTMLstr}`
+            else if (filmCrewIndex % 4 === 3 || filmCrewIndex === Object.keys(filmCrew).length - 1) filmCrewHTMLstr = `${filmCrewHTMLstr}</div>`
 
             filmCrewIndex++
         }

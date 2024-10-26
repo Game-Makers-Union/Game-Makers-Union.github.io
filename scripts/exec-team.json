@@ -203,15 +203,15 @@
         "Dante Romita": {
             "imagePath": "https://placehold.co/600",
             "role": "Webmaster",
-            "description": "My Description Here",
+            "description": "Greetings! I'm producer of this very website! I'm currently in a Computer Science Graduate program here at TMU and am working towards obtaining a master's degree. There's an abundance of rich intersectionality  between computer science, web development and game design, which I've always been fascinated and enamoured by. My goal here as GMU's webmaster is to make your experience navigating this website as enjoyable as possible, so do check out all of our links above, as well as my own links below!",
             "links": [
                 {
-                    "linkText": "LinkText1",
-                    "href": "#"
+                    "linkText": "My Website!",
+                    "href": "https://danteromita.github.io"
                 },
                 {
-                    "linkText": "LinkText2",
-                    "href": "#"
+                    "linkText": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/dante-romita/"
                 }
             ]
         },
