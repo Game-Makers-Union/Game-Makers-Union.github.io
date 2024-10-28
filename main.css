@@ -43,6 +43,11 @@ p {
     font-size: 12pt
 }
 
+summary {
+    font-weight: bold;
+    font-size: 14pt
+}
+
 a:visited {
     color: pink
 }
@@ -54,6 +59,17 @@ a:link{
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+}
+
+span {
+    text-align: left;
+}
+
+span > b {
+    background-color: #000000aa;
+    padding: 4px;
+    font-weight: 600;
+    font-size: 16pt
 }
 
 /* .text-center {
@@ -81,12 +97,14 @@ h1, h2, h3, h4, h5, h6 {
     color: yellow
 }
 
-.card-title {
-    text-shadow: -1px -1px 0 black,
-        1px -1px 0 black,
-        -1px 1px 0 black,
-        1px 1px 0 black;
-}
+/* .card-title {
+    text-shadow: -1pt -1pt 0 black,
+        1pt -1pt 0 black,
+        -1pt 1pt 0 black,
+        1pt 1pt 0 black;
+} */
+
+
 
 .card-title-text {
     font-weight: bold;
