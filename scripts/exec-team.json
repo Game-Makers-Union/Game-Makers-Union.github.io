@@ -2,160 +2,75 @@
     "Directors": {
         "Maeve Fitzgerald": {
             "imagePath": "./assets/images/exec-team/directors/maeve-fitzgerald.png",
-            "role": "Main Director",
-            "description": "Maeve's Description Here",
+            "role": "Main Director + Producer",
+            "description": "As director and producer of GMU, I'm the one who ensures everything that needs doing gets done. Whether handled personally or through delegation to our capable team of execs, I ensure that we meet student group regulations and funding requirements, that we always have a space to meet and work. I connect with industry guests and bring them in to talk to students, I collaborate with TMU organizations and outside sponsors to improve students' experience. I ensure that our development team has everything they need to create the best game possible to showcase the full extent of their skills. It's an immense job, but nothing can match the joy I get from seeing students thrive in this community we've created.",
             "links": [
                 {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
+                    "linkText": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/maeve-fitzgerald-962289238/"
                 }
             ]
         },
         "Emma Ko": {
             "imagePath": "https://placehold.co/600",
             "role": "Assistant Director",
-            "description": "Name2's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Manan Auluck": {
             "imagePath": "./assets/images/exec-team/directors/manan-auluck.png",
             "role": "Assistant Director",
-            "description": "Name3's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         }
     },
     "Developers": {
         "Thomas Imada": {
             "imagePath": "./assets/images/exec-team/developers/thomas-imada.png",
             "role": "Programming Lead",
-            "description": "Thomas's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Michael Latka": {
             "imagePath": "./assets/images/exec-team/developers/michael-latka.png",
             "role": "Programming Producer",
-            "description": "Michael's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Declan Key": {
             "imagePath": "./assets/images/exec-team/developers/declan-key.png",
             "role": "Art Lead",
-            "description": "Declan's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Victoria Ouryvski": {
             "imagePath": "./assets/images/exec-team/developers/victoria-ouryvski.png",
             "role": "Art Producer",
-            "description": "Victoria's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "4th year Computer Science student with a great passion for all things Art and Code!! I love the creation process and what better way to combine my love for Art and Programming than with making video games!!",
+            "links": []
         },
         "Cassandra Matchett": {
             "imagePath": "./assets/images/exec-team/developers/cassandra-matchett.png",
             "role": "Writing Lead",
-            "description": "Cassandra's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Stevie Zouri": {
             "imagePath": "./assets/images/exec-team/developers/stevie-zouri.png",
             "role": "Writing Producer",
-            "description": "Stevie's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Isabella Greco-Danells": {
             "imagePath": "./assets/images/exec-team/developers/isabella-greco-danells.png",
             "role": "Game Design Lead",
-            "description": "Isabella's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Tristan Meyer Odell": {
             "imagePath": "./assets/images/exec-team/developers/tristan-meyer-odell.png",
             "role": "Game Design Producer",
-            "description": "Tristan's Description Here",
+            "description": "",
             "links": [
                 {
                     "linkText": "LinkedIn",
@@ -166,62 +81,26 @@
         "Ethan Wong": {
             "imagePath": "./assets/images/exec-team/developers/ethan-wong.png",
             "role": "Sound Design Lead",
-            "description": "Ethan's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Ayanna Seesahai": {
             "imagePath": "./assets/images/exec-team/developers/ayanna-seesahai.png",
             "role": "Sound Design Producer",
-            "description": "Ayanna's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Patrik Ago": {
             "imagePath": "./assets/images/exec-team/developers/patrik-ago.png",
             "role": "UI Lead",
-            "description": "Patrik's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Prapti Gosain": {
             "imagePath": "./assets/images/exec-team/developers/prapti-gosain.png",
             "role": "UI Producer",
-            "description": "Prapti's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Hannah Nicoletta": {
             "imagePath": "./assets/images/exec-team/developers/hannah-nicoletta.png",
@@ -243,19 +122,10 @@
             ]
         },
         "Eamon Boily": {
-            "imagePath": "https://placehold.co/600",
+            "imagePath": "./assets/images/exec-team/developers/eamon-boily.png",
             "role": "QA Lead",
-            "description": "Eamon's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "I love making games both physical and digital. One of my biggest interests in game making is creating simple games that still allow for depth and complexity. In QA, our goal is to take the first iterations of a game and polish it until it becomes a finished product. We achieve this goal through rigorous play-testing and by working close with the other development teams. QA is a vital role in any game development studio and can make or break the user experience.",
+            "links": []
         }
     },
     "Operations": {
@@ -277,124 +147,57 @@
         "Edward Sword": {
             "imagePath": "./assets/images/exec-team/operations/edward-sword.png",
             "role": "Finance / Accountant",
-            "description": "Edward's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Emaan Iqbal": {
             "imagePath": "./assets/images/exec-team/operations/emaan-iqbal.png",
             "role": "Head of Marketing",
-            "description": "Emaan's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Marco Luis Policarpio": {
             "imagePath": "./assets/images/exec-team/operations/marco-luis-policarpio.png",
             "role": "Events Executive",
-            "description": "Marco's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Emmett Abdulhadi": {
             "imagePath": "https://placehold.co/600",
             "role": "Events Executive",
-            "description": "Emmett's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         }
     },
     "Film Crew": {
         "Evan [Last Name]": {
             "imagePath": "https://placehold.co/600",
             "role": "Film Crew 1",
-            "description": "Evan's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
-        "Alisha [Last Name]": {
-            "imagePath": "https://placehold.co/600",
-            "role": "Film Crew 2",
-            "description": "Alisha's Description Here",
+        "Alisha Pereira": {
+            "imagePath": "./assets/images/exec-team/film-crew/alisha-pereira.png",
+            "role": "Writer",
+            "description": "With a background in producing scripted fiction television and a passion for exploring digital storytelling, I bring a blend of industry experience and skills I'm learning as a graduate student in the Master of Digital Media program to ideate and script engaging content for GMU.",
             "links": [
                 {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
+                    "linkText": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/alisha-pereira/"
                 }
             ]
         },
         "Zoreb [Last Name]": {
             "imagePath": "https://placehold.co/600",
             "role": "Film Crew 3",
-            "description": "Zoreb's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         },
         "Nityaa [Last Name]": {
             "imagePath": "https://placehold.co/600",
             "role": "Film Crew 4",
-            "description": "Nityaa's Description Here",
-            "links": [
-                {
-                    "linkText": "LinkText1",
-                    "href": "#"
-                },
-                {
-                    "linkText": "LinkText2",
-                    "href": "#"
-                }
-            ]
+            "description": "",
+            "links": []
         }
     }
 }

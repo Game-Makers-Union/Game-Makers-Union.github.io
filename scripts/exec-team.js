@@ -33,6 +33,8 @@ const deptColors = {
     }
 }
 
+function hasDescription(str) { return str !== "" }
+
 fetch('scripts/exec-team.json')
     .then(response => response.json())
     .then(data => {
@@ -47,8 +49,18 @@ fetch('scripts/exec-team.json')
 
             let gridStr = `s12 m6 l4`
             let colorStr = `green darken-3`
-            if (directors[directorName].role === "Main Director") colorStr = `teal darken-1`
+            if (directorIndex === 0) colorStr = `teal darken-1`
             // Main Director should ALWAYS be the first entry in the `exec-team.json` file!
+
+            let descHTMLstr = ``
+            if (hasDescription(directors[directorName].description)) {
+                descHTMLstr = `
+                    <details>
+                        <summary>About Me</summary>
+                        <p>${directors[directorName].description}</p>
+                    </details>
+                `
+            }
 
             directorHTMLstr += `
                 <div class="col ${gridStr}">
@@ -59,10 +71,7 @@ fetch('scripts/exec-team.json')
                         </div>
                         <div class="card-content">
                             <h5 class="center">${directors[directorName].role}</h5>
-                            <details>
-                                <summary>About Me</summary>
-                                <p>${directors[directorName].description}</p>
-                            </details>
+                            ${descHTMLstr}
                         </div>
                         <div class="card-action black">
                             ${urlHTMLstr}
@@ -75,7 +84,7 @@ fetch('scripts/exec-team.json')
             // else if (directorIndex % 2 === 1) directorHTMLstr = `<div class="row">${directorHTMLstr}`
             // else if (directorIndex % 2 === 0 || directorIndex === Object.keys(directors).length - 1) directorHTMLstr = `${directorHTMLstr}</div>`
 
-            // directorIndex++
+            directorIndex++
         }
         document.getElementById('Directors').innerHTML = directorHTMLstr;
         // --- END OF DIRECTORS ---
@@ -92,11 +101,20 @@ fetch('scripts/exec-team.json')
             let cardColor, textColor
             for (const dept of Object.keys(deptColors)) {
                 if (developers[developerName].role.includes(dept)) {
-                    console.log("Found " + dept + " in " + developers[developerName].role)
                     cardColor = deptColors[dept].cardColor
                     textColor = deptColors[dept].textColor
                     break
                 }
+            }
+
+            let descHTMLstr = ``
+            if (hasDescription(developers[developerName].description)) {
+                descHTMLstr = `
+                    <details>
+                        <summary>About Me</summary>
+                        <p>${developers[developerName].description}</p>
+                    </details>
+                `
             }
 
             developerHTMLstr += `
@@ -108,10 +126,7 @@ fetch('scripts/exec-team.json')
                         </div>
                         <div class="card-content" style="color: ${textColor}">
                             <h5 class="center">${developers[developerName].role}</h5>
-                            <details>
-                                <summary>About Me</summary>
-                                <p>${developers[developerName].description}</p>
-                            </details>
+                            ${descHTMLstr}
                         </div>
                         <div class="card-action black">
                             ${urlHTMLstr}
@@ -137,6 +152,16 @@ fetch('scripts/exec-team.json')
             for (const link of operations[operationName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
             urlHTMLstr += `</ul>`
 
+            let descHTMLstr = ``
+            if (hasDescription(operations[operationName].description)) {
+                descHTMLstr = `
+                    <details>
+                        <summary>About Me</summary>
+                        <p>${operations[operationName].description}</p>
+                    </details>
+                `
+            }
+
             operationHTMLstr += `
                 <div class="col s12 m6 l3">
                     <div class="card blue darken-3">
@@ -146,10 +171,7 @@ fetch('scripts/exec-team.json')
                         </div>
                         <div class="card-content">
                             <h5 class="center">${operations[operationName].role}</h5>
-                            <details>
-                                <summary>About Me</summary>
-                                <p>${operations[operationName].description}</p>
-                            </details>
+                            ${descHTMLstr}
                         </div>
                         <div class="card-action black">
                             ${urlHTMLstr}
@@ -173,6 +195,16 @@ fetch('scripts/exec-team.json')
             for (const link of filmCrew[filmCrewName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
             urlHTMLstr += `</ul>`
 
+            let descHTMLstr = ``
+            if (hasDescription(filmCrew[filmCrewName].description)) {
+                descHTMLstr = `
+                    <details>
+                        <summary>About Me</summary>
+                        <p>${filmCrew[filmCrewName].description}</p>
+                    </details>
+                `
+            }
+
             filmCrewHTMLstr += `
                 <div class="col s12 m6 l3">
                     <div class="card deep-purple">
@@ -182,10 +214,7 @@ fetch('scripts/exec-team.json')
                         </div>
                         <div class="card-content">
                             <h5 class="center">${filmCrew[filmCrewName].role}</h5>
-                            <details>
-                                <summary>About Me</summary>
-                                <p>${filmCrew[filmCrewName].description}</p>
-                            </details>
+                            ${descHTMLstr}
                         </div>
                         <div class="card-action black">
                             ${urlHTMLstr}
