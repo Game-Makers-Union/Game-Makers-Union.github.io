@@ -12,10 +12,19 @@
             ]
         },
         "Emma Ko": {
-            "imagePath": "https://placehold.co/600",
+            "imagePath": "./assets/images/exec-team/directors/emma-ko.png",
             "role": "Assistant Director",
-            "description": "",
-            "links": []
+            "description": "Hi! I'm Emma Ko, the Assistant Director at GMU. I'm a third-year Marketing Management student at TRSM and I'm super excited to support the GMU team. I'm always happy to meet new people, try new things, and make new friends :) Feel free to reach out to me on Instagram @em.mako or Discord @makopie.",
+            "links": [
+                {
+                    "linkText": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/koemmako/"
+                },
+                {
+                    "linkText": "Instagram",
+                    "href": "https://www.instagram.com/em.mako/"
+                }
+            ]
         },
         "Manan Auluck": {
             "imagePath": "./assets/images/exec-team/directors/manan-auluck.png",
@@ -172,7 +181,7 @@
     "Film Crew": {
         "Evan [Last Name]": {
             "imagePath": "https://placehold.co/600",
-            "role": "Film Crew 1",
+            "role": "Editor",
             "description": "",
             "links": []
         },
@@ -187,15 +196,15 @@
                 }
             ]
         },
-        "Zoreb [Last Name]": {
-            "imagePath": "https://placehold.co/600",
-            "role": "Film Crew 3",
+        "Zoreb Malick": {
+            "imagePath": "./assets/images/exec-team/film-crew/zoreb-malick.png",
+            "role": "Director",
             "description": "",
             "links": []
         },
-        "Nityaa [Last Name]": {
-            "imagePath": "https://placehold.co/600",
-            "role": "Film Crew 4",
+        "Nitya Shinde": {
+            "imagePath": "./assets/images/exec-team/film-crew/nitya-shinde.png",
+            "role": "Cinematographer",
             "description": "",
             "links": []
         }
