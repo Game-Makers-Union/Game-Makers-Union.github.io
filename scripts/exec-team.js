@@ -43,24 +43,22 @@ fetch('scripts/exec-team.json')
         let directorHTMLstr = ``
         let directorIndex = 0
         for (const directorName of Object.keys(directors)) {
-            let urlHTMLstr = `<ul>`
-            for (const link of directors[directorName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
-            urlHTMLstr += `</ul>`
-
             let gridStr = `s12 m6 l4`
             let colorStr = `green darken-3`
             if (directorIndex === 0) colorStr = `teal darken-1`
             // Main Director should ALWAYS be the first entry in the `exec-team.json` file!
 
-            let descHTMLstr = ``
+            let urlHTMLstr = `
+            <details style="color: #ffab40">
+            <summary>Links</summary>`
+            for (const link of directors[directorName].links) urlHTMLstr += `<li><b><a href="${link.href}">${link.linkText}</a></b></li>`
+            urlHTMLstr += `</details>`
+
+            let descHTMLstr = `<details><summary>About Me</summary>`
             if (hasDescription(directors[directorName].description)) {
-                descHTMLstr = `
-                    <details>
-                        <summary>About Me</summary>
-                        <p>${directors[directorName].description}</p>
-                    </details>
-                `
+                descHTMLstr += `<p>${directors[directorName].description}</p>`
             }
+            descHTMLstr += `</details>`
 
             directorHTMLstr += `
                 <div class="col ${gridStr}">
@@ -94,9 +92,6 @@ fetch('scripts/exec-team.json')
         let developerHTMLstr = ``
         let developerIndex = 0
         for (const developerName of Object.keys(developers)) {
-            let urlHTMLstr = `<ul>`
-            for (const link of developers[developerName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
-            urlHTMLstr += `</ul>`
 
             let cardColor, textColor
             for (const dept of Object.keys(deptColors)) {
@@ -107,15 +102,17 @@ fetch('scripts/exec-team.json')
                 }
             }
 
-            let descHTMLstr = ``
+            let urlHTMLstr = `
+            <details style="color: #ffab40">
+            <summary>Links</summary>`
+            for (const link of developers[developerName].links) urlHTMLstr += `<li><b><a href="${link.href}">${link.linkText}</a></b></li>`
+            urlHTMLstr += `</details>`
+
+            let descHTMLstr = `<details><summary>About Me</summary>`
             if (hasDescription(developers[developerName].description)) {
-                descHTMLstr = `
-                    <details>
-                        <summary>About Me</summary>
-                        <p>${developers[developerName].description}</p>
-                    </details>
-                `
+                descHTMLstr += `<p>${developers[developerName].description}</p>`
             }
+            descHTMLstr += `</details>`
 
             developerHTMLstr += `
                 <div class="col s12 m6 l3">
@@ -148,19 +145,17 @@ fetch('scripts/exec-team.json')
         let operationHTMLstr = ``
         let operationIndex = 0
         for (const operationName of Object.keys(operations)) {
-            let urlHTMLstr = `<ul>`
-            for (const link of operations[operationName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
-            urlHTMLstr += `</ul>`
+            let urlHTMLstr = `
+            <details style="color: #ffab40">
+            <summary>Links</summary>`
+            for (const link of operations[operationName].links) urlHTMLstr += `<li><b><a href="${link.href}">${link.linkText}</a></b></li>`
+            urlHTMLstr += `</details>`
 
-            let descHTMLstr = ``
+            let descHTMLstr = `<details><summary>About Me</summary>`
             if (hasDescription(operations[operationName].description)) {
-                descHTMLstr = `
-                    <details>
-                        <summary>About Me</summary>
-                        <p>${operations[operationName].description}</p>
-                    </details>
-                `
+                descHTMLstr += `<p>${operations[operationName].description}</p>`
             }
+            descHTMLstr += `</details>`
 
             operationHTMLstr += `
                 <div class="col s12 m6 l3">
@@ -191,19 +186,17 @@ fetch('scripts/exec-team.json')
         let filmCrewHTMLstr = ``
         let filmCrewIndex = 0
         for (const filmCrewName of Object.keys(filmCrew)) {
-            let urlHTMLstr = `<ul>`
-            for (const link of filmCrew[filmCrewName].links) urlHTMLstr += `<li><a href="${link.href}">${link.linkText}</a></li>`
-            urlHTMLstr += `</ul>`
+            let urlHTMLstr = `
+            <details style="color: #ffab40">
+            <summary>Links</summary>`
+            for (const link of filmCrew[filmCrewName].links) urlHTMLstr += `<li><b><a href="${link.href}">${link.linkText}</a></b></li>`
+            urlHTMLstr += `</details>`
 
-            let descHTMLstr = ``
+            let descHTMLstr = `<details><summary>About Me</summary>`
             if (hasDescription(filmCrew[filmCrewName].description)) {
-                descHTMLstr = `
-                    <details>
-                        <summary>About Me</summary>
-                        <p>${filmCrew[filmCrewName].description}</p>
-                    </details>
-                `
+                descHTMLstr += `<p>${filmCrew[filmCrewName].description}</p>`
             }
+            descHTMLstr += `</details>`
 
             filmCrewHTMLstr += `
                 <div class="col s12 m6 l3">
