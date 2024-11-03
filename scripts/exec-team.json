@@ -37,8 +37,13 @@
         "Thomas Imada": {
             "imagePath": "./assets/images/exec-team/developers/thomas-imada.png",
             "role": "Programming Lead",
-            "description": "",
-            "links": []
+            "description": "Hi I'm Thomas, the programming lead for the GMU! I'm a third year computer science student born and raised in Toronto. Over the years I've always been interested in programming, starting from Minecraft command blocks, to terminal based programs to now game programming. Outside of school, my main hobbies are Olympic Weightlifting, soccer and speed cubing (solving Rubik's cubes as fast as possible).",
+            "links": [
+                {
+                    "linkText": "LinkedIn",
+                    "href": "https://linkedin.com/in/thomas-imada"
+                }
+            ]
         },
         "Michael Latka": {
             "imagePath": "./assets/images/exec-team/developers/michael-latka.png",
@@ -114,7 +119,7 @@
         "Hannah Nicoletta": {
             "imagePath": "./assets/images/exec-team/developers/hannah-nicoletta.png",
             "role": "Accessibility Lead",
-            "description": "Hi! I'm Hannah - a musician, artist, and programmer who, more than anything, just loves to make stuff. I'm a Master of Digital Media student currently working towards the video game industry, as I move from creating soundtracks and art to creating a game of my own. At the end of the day, whether it’s drawing on a napkin or coding at my computer, you can find me happily creating.",
+            "description": "Hi! I'm Hannah - a musician, artist, and programmer who, more than anything, just loves to make stuff. I'm a Master of Digital Media student currently working towards the video game industry, as I move from creating soundtracks and art to creating a game of my own. At the end of the day, whether it's drawing on a napkin or coding at my computer, you can find me happily creating.",
             "links": [
                 {
                     "linkText": "Portfolio",
@@ -172,18 +177,32 @@
             "links": []
         },
         "Emmett Abdulhadi": {
-            "imagePath": "https://placehold.co/600",
+            "imagePath": "./assets/images/exec-team/operations/emmett-abdulhadi.png",
             "role": "Events Executive",
-            "description": "",
-            "links": []
+            "description": "Hi! My name is Mehmet, or you can call me Emmett! I'm one of the events executives at GMU. I'm a 4th year architectural science student here at TMU. I'm interested in game design and finding ways to connect architecture with the gaming experience.",
+            "links": [
+                {
+                    "linkText": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/mehmet-abdulhadi-a0554b2b2"
+                }
+            ]
         }
     },
     "Film Crew": {
-        "Evan [Last Name]": {
-            "imagePath": "https://placehold.co/600",
-            "role": "Editor",
-            "description": "",
-            "links": []
+        "Evan Kadoch": {
+            "imagePath": "./assets/images/exec-team/film-crew/evan-kadoch.png",
+            "role": "Video Editor",
+            "description": "Hi there! I'm Evan, a video editor in RTA Media Production, and am also the video editor for GMU! I love games, movies and music. Any video you see posted from GMU including game trailers have been edited by me :).",
+            "links": [
+                {
+                    "linkText": "Kadoch Compositions",
+                    "href": "https://kadochcompositions.com"
+                },
+                {
+                    "linkText": "YouTube",
+                    "href": "https://www.youtube.com/@evankadoch"
+                }
+            ]
         },
         "Alisha Pereira": {
             "imagePath": "./assets/images/exec-team/film-crew/alisha-pereira.png",
@@ -205,7 +224,7 @@
         "Nitya Shinde": {
             "imagePath": "./assets/images/exec-team/film-crew/nitya-shinde.png",
             "role": "Cinematographer",
-            "description": "",
+            "description": "I'm a digital marketer with a passion for creative technologies. My expertise lies in graphic design and capturing art in a creative way, where I find particular excitement in syncing visuals to music. These skills, rooted in my love for art, allow me to craft immersive experiences that are both artistic and innovative.",
             "links": []
         }
     }
