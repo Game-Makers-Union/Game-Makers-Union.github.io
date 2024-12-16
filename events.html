@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Makers Union</title>
+    <link rel="icon" href="./assets/images/gmu-branding/GMU-Logo.png">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <header>
+        <script>
+            fetch("commonHTML/header.htm")
+                .then((response) => response.text())
+                .then((data) => {
+                    document.querySelector("header").innerHTML = data
+                })
+        </script>
+    </header>
+
+    <div id="customNav">
+        <script>
+            fetch("commonHTML/customNav.htm")
+                .then((response) => response.text())
+                .then((data) => {
+                    document.querySelector("#customNav").innerHTML = data
+                })
+        </script>
+    </div>
+
+    <main>
+        <h2 class="center card-panel grey darken-4">
+            Explore GMU's Exciting Events!
+        </h2>
+
+        <article class="grey darken-3 card-panel">
+            <p>
+                We host several different types of events here at GMU, each of which provide unique opportunities for networking, collaboration, education, and fun!
+            </p>
+        </article>
+    </main>
+
+    <footer class="black page-footer">
+        <script>
+            fetch("commonHTML/footer.htm")
+                .then((response) => response.text())
+                .then((data) => {
+                    document.querySelector("footer").innerHTML = data
+                })
+        </script>
+    </footer>
+</body>
+
+</html>
