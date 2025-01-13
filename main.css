@@ -38,7 +38,7 @@ footer {
     background-color: #007dff;
 }
 
-p, ol {
+p, ol, ul {
     font-size: 12pt
 }
 
@@ -47,8 +47,12 @@ summary {
     font-size: 14pt
 }
 
+a {
+    text-decoration: underline
+}
+
 a:visited {
-    color: skyblue
+    color: lightpink
 }
 
 a:link{
@@ -74,6 +78,12 @@ span > b {
 /* .text-center {
     text-align: center;
 } */
+
+.event-imgs {
+    width: 99%;
+    border: solid 4px;
+    margin-bottom: 8px;
+}
 
 .nav-btn {
     font-weight: 500;
