@@ -38,7 +38,9 @@ footer {
     background-color: #007dff;
 }
 
-p, ol, ul {
+p,
+ol,
+ul {
     font-size: 12pt
 }
 
@@ -55,12 +57,17 @@ a:visited {
     color: lightpink
 }
 
-a:link{
+a:link {
     color: skyblue
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
 }
 
@@ -68,7 +75,7 @@ span {
     text-align: left;
 }
 
-span > b {
+span>b {
     background-color: #000000aa;
     padding: 4px;
     font-weight: 600;
@@ -113,7 +120,25 @@ span > b {
         1pt 1pt 0 black;
 } */
 
+.youtube-video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
 
+.youtube-video-container::after {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .card-title-text {
     font-weight: bold;
