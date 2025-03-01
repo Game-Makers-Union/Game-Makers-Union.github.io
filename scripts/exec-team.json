@@ -198,21 +198,6 @@
         }
     },
     "Film Crew": {
-        "Evan Kadoch": {
-            "imagePath": "./assets/images/exec-team/film-crew/evan-kadoch.png",
-            "role": "Video Editor",
-            "description": "Hi there! I'm Evan, a video editor in RTA Media Production, and am also the video editor for GMU! I love games, movies and music. Any video you see posted from GMU including game trailers have been edited by me :).",
-            "links": [
-                {
-                    "linkText": "Kadoch Compositions",
-                    "href": "https://kadochcompositions.com"
-                },
-                {
-                    "linkText": "YouTube",
-                    "href": "https://www.youtube.com/@evankadoch"
-                }
-            ]
-        },
         "Alisha Pereira": {
             "imagePath": "./assets/images/exec-team/film-crew/alisha-pereira.png",
             "role": "Writer",
@@ -228,12 +213,6 @@
             "imagePath": "./assets/images/exec-team/film-crew/zoreb-malick.png",
             "role": "Director",
             "description": "",
-            "links": []
-        },
-        "Nitya Shinde": {
-            "imagePath": "./assets/images/exec-team/film-crew/nitya-shinde.png",
-            "role": "Cinematographer",
-            "description": "I'm a digital marketer with a passion for creative technologies. My expertise lies in graphic design and capturing art in a creative way, where I find particular excitement in syncing visuals to music. These skills, rooted in my love for art, allow me to craft immersive experiences that are both artistic and innovative.",
             "links": []
         }
     }
